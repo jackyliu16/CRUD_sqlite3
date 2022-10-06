@@ -81,7 +81,7 @@ pub fn match_path(root: &PathBuf, str: String) -> Option<DirEntry> {
 pub mod test {
     use crate::lib::fd::get_file_name_from_direntry;
 
-    use super::{get_file_under_path, move_to_parent, print_pwd, move_to_direntry, match_path};
+    use super::{get_file_under_path, move_to_parent, print_pwd, move_to_direntry};
     use std::{env::current_dir, path::PathBuf};
 
     #[test]
